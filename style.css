@@ -1,0 +1,537 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+    padding: 1rem;
+    background-image: url("patryk-gauza-vs0tzSHVcac-unsplash.jpg");
+    background-size: cover;
+}
+
+#bodydiv {
+    position: relative;
+
+    .bodydiv1 {
+        width: 100%;
+        height: 40rem;
+    }
+
+    .bodydiv1 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .bodydiv2 {
+        position: absolute;
+        top: 35%;
+        right: 20%;
+        color: white;
+        text-align: end;
+        font-size: 50px;
+        font-weight: 800;
+        letter-spacing: 0.5rem;
+        font-style: italic;
+    }
+
+    .body2btn {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+#body2 {
+    color: black;
+    text-align: start;
+    /* background-color: rgba(203,134,83,255); */
+    background-color: #cfc3b3;
+    padding: 2rem;
+
+    .body2-img {
+        height: 2rem;
+        width: 3rem;
+    }
+
+    .body2p {
+        font-size: 13px;
+    }
+}
+
+#body3 {
+    padding: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    .body3-dv1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .body3h {
+        margin-bottom: 1.2rem;
+        color: chocolate;
+        text-align: center;
+        font-size: 50px;
+        font-weight: 800;
+        letter-spacing: 0.5rem;
+    }
+
+    .body3-dv2 {
+        display: flex;
+        height: 400px;
+        /* overflow: hidden; */
+        /* flex-direction: column; */
+    }
+
+    .body3-textdiv {
+        height: 100%;
+        width: 50%;
+        padding-right: 2.5rem;
+        padding-left: 2.5rem;
+    }
+
+    .body3-imgdiv {
+        /* padding-top: 0.4rem; */
+        text-align: center;
+        width: 50%;
+    }
+
+    .body3-imgdiv img {
+        border-radius: 0.7rem;
+        width: 80%;
+        height: 100%;
+    }
+}
+
+#body4 {
+    padding: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    /* display: flex; */
+
+    .body4-dv1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .body4h {
+        margin-bottom: 1.2rem;
+        color: chocolate;
+        text-align: center;
+        font-size: 50px;
+        font-weight: 800;
+        letter-spacing: 0.5rem;
+        /* z-index: 3; */
+    }
+
+    .body4-dv2 {
+        display: flex;
+        height: 400px;
+        /* overflow: hidden; */
+        /* flex-direction: column; */
+    }
+
+    .body4-textdiv {
+        height: 100%;
+        width: 50%;
+        padding-right: 2.5rem;
+        padding-left: 2.5rem;
+
+        display: flex;
+        align-items: center;
+    }
+
+    .body4-imgdiv {
+        /* padding-top: 0.4rem; */
+        text-align: center;
+        width: 50%;
+    }
+
+    .body4-imgdiv img {
+        border-radius: 0.7rem;
+        width: 80%;
+        height: 100%;
+        transform: rotate(-8deg);
+    }
+}
+
+#body5 {
+    padding: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    /* display: flex; */
+
+    .body5-dv1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .body5h {
+        margin-bottom: 1.2rem;
+        color: chocolate;
+        text-align: center;
+        font-size: 50px;
+        font-weight: 800;
+        z-index: 3;
+        letter-spacing: 0.5rem;
+    }
+
+    .body5-dv2 {
+        display: flex;
+        height: 400px;
+        /* overflow: hidden; */
+        /* flex-direction: column; */
+    }
+
+    .body5-textdiv {
+        height: 100%;
+        width: 50%;
+        padding-right: 2.5rem;
+        padding-left: 2.5rem;
+
+        display: flex;
+        align-items: center;
+    }
+
+    .body5-imgdiv {
+        /* padding-top: 0.4rem; */
+        text-align: center;
+        width: 50%;
+    }
+
+    .body5-imgdiv img {
+        border-radius: 0.7rem;
+        width: 80%;
+        height: 100%;
+        z-index: 1;
+        transform: rotate(10deg);
+    }
+}
+
+#body6 {
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    background-color: #cfc3b3;
+    text-align: center;
+
+    .body6-child {
+        background-color: #cfc3b3;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        text-align: center;
+
+    }
+
+    .cardhead {
+        font-size: 40px;
+        color: chocolate;
+        letter-spacing: 0.5rem;
+    }
+
+    .card {
+        background-color: rgb(245, 245, 244, 1);
+        box-shadow: 0px 0px 9px grey;
+        border: 0;
+        padding: 0.3rem;
+        padding-bottom: 0.8rem;
+        width: 18rem;
+        margin: 2rem;
+    }
+
+    .card img {
+        height: 10rem;
+    }
+
+    .card:hover {
+        box-shadow: 0px 0px 15px grey;
+        transition: all 0.3s;
+    }
+
+    .loadmore {
+        /* width: 18rem; */
+        margin-bottom: 0.5rem;
+
+    }
+}
+
+/* #body7{
+    width: 100%;
+    overflow: scroll;
+    .imgbag{
+        width: 120%;
+        background-color: blue;
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .img{
+        background-color: aqua;
+        height: 10rem;
+        width: 10rem;
+        margin-right: 1rem;
+    }
+} */
+
+#footer {
+    /* margin-bottom: 3rem; */
+    padding: 1rem;
+    background-color: rgba(210, 105, 30, 0.651);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .contactform {
+        width: 50%;
+    }
+
+    #footname,
+    #footmail,
+    #footnmbr,
+    #message {
+        border-radius: 10px;
+        padding: 5px;
+        padding-left: 1.5rem;
+        border: none;
+        /* margin: 5px; */
+        width: 100%;
+        margin-bottom: 15px;
+        outline: none;
+    }
+
+    #submit {
+        border-radius: 10px;
+        border: none;
+        width: 100%;
+        /* margin-bottom: 10px; */
+        outline: none;
+    }
+
+    .details {
+        padding-left: 2rem;
+        width: 50%;
+    }
+
+    .colsub {
+        text-decoration: none;
+        color: black;
+        font-weight: lighter;
+    }
+
+    .colsub:hover {
+        font-weight: normal;
+        text-decoration: underline;
+
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        /* width: 100%; */
+        padding-left: 0.7rem;
+        padding-right: 0.7rem;
+    }
+
+    nav {
+        /* width: 100%; */
+        margin-left: 0;
+        margin-right: 0.7rem;
+    }
+
+    #bodydiv {
+        .bodydiv1 {
+            width: 100%;
+            height: 17rem;
+        }
+
+        .bodydiv1 img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .bodydiv2 {
+            position: absolute;
+            top: 25%;
+            right: 18%;
+            color: white;
+            text-align: end;
+            font-size: 23px;
+            font-weight: 800;
+            letter-spacing: 0.3rem;
+            font-style: italic;
+        }
+    }
+
+    #body2 {
+        display: none;
+        /* padding: 1rem;
+        text-align: center; 
+        .col{
+            margin-right: 1rem;
+            margin-left: 1rem;
+            margin-bottom: 0.5rem;
+        } */
+    }
+
+    #body3 {
+        margin-top: 0.3rem;
+        .body3h {
+            font-size: 25px;
+            font-weight: 800;
+            letter-spacing: 0.3rem;
+            margin-bottom: 13rem;
+        }
+
+        .body3-dv2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+    
+        .body3-textdiv {
+            width: 100%;
+            padding-right: 1rem;
+            padding-left: 1rem;
+            text-align: justify;
+            text-justify: inter-word;
+            margin-bottom: 1.5rem;
+            margin-top: 6.5rem;
+        }
+        .hide{
+            display: none;
+        }
+    
+        .body3-imgdiv {
+            text-align: center;
+            width: 100%;
+            margin-bottom: 18rem;
+        }
+    
+        .body3-imgdiv img {
+            border-radius: 0.5rem;
+            width: 100%;
+            height: 300px;
+        }
+    }
+
+    #body4{
+
+
+        .body4h {
+            font-size: 25px;
+            font-weight: 800;
+            letter-spacing: 0.3rem;
+            margin-top: 3rem;
+            margin-bottom: 10.5rem;
+            z-index: 3;
+        }
+        .body4-dv2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        .body4-textdiv {
+            width: 100%;
+            padding-right: 1rem;
+            padding-left: 1rem;
+            text-align: justify;
+            text-justify: inter-word;
+            margin-bottom: 6rem;
+            margin-top: 1rem;
+
+            .hide{
+                display: none;
+            }
+        }
+        .body4-imgdiv {
+            text-align: center;
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+    
+        .body4-imgdiv img {
+            border-radius: 0.5rem;
+            width: 100%;
+            height: 300px;
+            transform: rotate(-4deg);
+        }
+    }
+
+    #body5 {
+
+        .body5h {
+            font-size: 25px;
+            font-weight: 800;
+            letter-spacing: 0.3rem;
+            margin-bottom: 11.5rem;
+        }
+
+        .body5-dv2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+    
+        .body5-textdiv {
+            width: 100%;
+            padding-right: 1rem;
+            padding-left: 1rem;
+            text-align: justify;
+            text-justify: inter-word;
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+        }
+        .hide{
+            display: none;
+        }
+    
+        .body5-imgdiv {
+            text-align: center;
+            width: 100%;
+            margin-bottom: 13rem;
+        }
+    
+        .body5-imgdiv img {
+            border-radius: 0.5rem;
+            width: 100%;
+            height: 300px;
+        }
+    }
+
+    #footer{
+
+        .contactform{
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+        .details {
+            padding-left: 1rem;
+            width: 100%;
+        }
+        .hide{
+            display: none;
+        }
+    }
+}
+
+
